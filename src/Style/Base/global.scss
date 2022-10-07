@@ -7,7 +7,7 @@ $default-padding: 16;
 html,
 body {
   color: value($color-basic, darkest);
-  font-family: "QuickSand";
+  font-family: "Quicksand";
   font-size: calc($default-font-size * 0.65);
   height: 100%;
   width: 100%;
@@ -22,12 +22,40 @@ body {
 }
 
 * {
-  font-family: "QuickSand";
+  font-family: "Quicksand";
+  letter-spacing: -0.02em;
   margin: 0;
 }
 
+.is-hidden--SP {
+  display: none;
+}
+
+.is-hidden--PC {
+  display: block;
+}
 body .body__container {
   padding: 16px;
+  margin: auto;
+  max-width: 1300px;
+}
+
+@media (min-width: 720px) {
+  .is-hidden--PC {
+    display: none;
+  }
+  .is-hidden--SP {
+    display: block;
+  }
+  body .body__container {
+    padding: 35px 40px 200px;
+  }
+}
+
+p,
+h1,
+h2 {
+  color: #333333;
 }
 
 h1 a,

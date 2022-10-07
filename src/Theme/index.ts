@@ -39,14 +39,14 @@ export const theme = createTheme({
       },
     },
     body1: {
-      fontSize: 24,
+      fontSize: 18,
       fontWeight: 400,
-      lineHeight: "36px",
+      lineHeight: "27px",
     },
     body2: {
-      fontSize: 14,
+      fontSize: 18,
       fontWeight: 400,
-      lineHeight: "16px",
+      lineHeight: "22px",
     },
     caption: {
       fontSize: 12,
